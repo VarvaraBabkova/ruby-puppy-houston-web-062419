@@ -11,7 +11,12 @@
    def self.all
      @@all
    end
+
    def clear_all
      @@all.clear
+   end
+
+   def print_all
+     @@all.each {|a| puts a }
    end
  end
