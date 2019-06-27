@@ -17,6 +17,6 @@
    end
 
    def self.print_all
-     @@all.each {|a| puts a }
+     @@all.each {|a| puts a.name }
    end
  end
